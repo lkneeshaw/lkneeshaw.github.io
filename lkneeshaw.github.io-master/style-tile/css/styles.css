@@ -1,0 +1,95 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Color Palette */
+.color-1 {
+    background: #fff8e8;
+}
+
+.color-2 {
+    background: #2d200c;
+}
+
+.color-3 {
+    background: #9bb992;
+}
+
+.color-4 {
+    background: #c5492d;
+}
+
+/* Textures or Patterns*/
+.pattern-1 {
+    background: url("../img/subtle_white_mini_waves.png")
+}
+
+.pattern-2 {
+    background: url("../img/ricepaper_v3.png")
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited {
+    color: #c5492d;
+    text-transform: uppercase;
+}
+
+a:focus {
+    
+}
+
+a:hover {
+    color: #9bb992;
+}
+
+a:active {
+    color: white;
+    background: blue;
+}
+
+
+/* Typography */
+body {
+    color: #2d200c;
+}
+h1 {
+    color: #c5492d;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20px;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15px;
+}
+p {
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+
