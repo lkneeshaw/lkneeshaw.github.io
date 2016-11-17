@@ -2,14 +2,16 @@
 /*STYLES*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/*NAV BAR*/
-
-main {
-    width: 80%;
-    margin: 70px auto 0 auto;
-    background: #fff8e8;
-    box-shadow: 0 0 10px 0;
+body {
+    color: #2d200c;
+    background: linear-gradient(
+    rgba(155, 185, 146, 0.45), 
+    rgba(155, 185, 146, 0.45)
+    ),
+    url(../img/subtle_white_mini_waves.png);
 }
+
+/*NAV BAR*/
 
 nav {
     display: block;
@@ -25,6 +27,7 @@ nav li {
     display: inline;
     float: right;
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 1.1em;
     letter-spacing: 0.05em;
     list-style: none;
     padding-top: 11px;
@@ -40,8 +43,35 @@ li#laurakneeshaw {
     padding-top: 6px;
 }
 
-img {
-    width: 50%;
+/*ARTICLE*/
+
+article {
+    width: 70%;
+    margin: 70px auto 0 auto;
+    background: #fffbf3;
+    box-shadow: 0 0 10px 0;
+}
+
+section {
+    padding: 0 100px 0 100px;
+}
+
+li {
+    list-style: none;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+#about-image{
+    width: 40%;
+    min-width: 300px;
+    margin-top: 30px;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* LINKS */
@@ -66,11 +96,6 @@ a:active {
     background: blue;
 }
 
-body {
-    color: #2d200c;
-   background: #9bb992;
-}
-
 /*TYPOGRAPHY*/
 
 h1 {
@@ -82,7 +107,7 @@ h1 {
 	font-weight: 700;
     letter-spacing: 0.025em;
 	line-height: 26px;
-    padding: 40px 0 0 100px;
+    padding: 10px 0 0 0;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -105,7 +130,6 @@ p {
     font-size: 1em;
     font-weight: 200;
     line-height: 20px;
-    padding: 0 100px 0 100px;
 }
 
 /*FOOTER*/
