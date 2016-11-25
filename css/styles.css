@@ -53,7 +53,11 @@ article {
 }
 
 section {
-    padding: 0 100px 0 100px;
+    padding: 0 10%;
+}
+
+ul {
+    padding-left: 2.5em;
 }
 
 li {
@@ -61,12 +65,12 @@ li {
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     font-size: 1em;
     font-weight: 200;
-    line-height: 20px;
+    line-height: 1.25em;
 }
 
 #about-image{
-    width: 40%;
-    min-width: 300px;
+    width: 100%;
+    max-width: 500px;
     margin-top: 30px;
 }
 
@@ -101,29 +105,29 @@ a:active {
 h1 {
     color: #c5492d;
 	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
+	font-size: 2em; /* 32px/16px = 2em */
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
     letter-spacing: 0.025em;
-	line-height: 26px;
+	line-height: 1.625em;
     padding: 10px 0 0 0;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 1.5em; /* 24px/16px = 1.5em */
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 20px;
+	line-height: 1.5em; /* 20px/16px = 1.25em */
 }
 h3 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 22px;
+	font-size: 1.375em; /* 22px/16px = 1.375em */
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15px;
+	line-height: 1.375em;
 }
 p {
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
