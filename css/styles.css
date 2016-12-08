@@ -96,9 +96,9 @@ a:hover {
 }
 
 a:active {
-    color: white;
-    background: blue;
+    color: #9bb992;
 }
+
 
 /*TYPOGRAPHY*/
 
@@ -134,6 +134,117 @@ p {
     font-size: 1em;
     font-weight: 200;
     line-height: 20px;
+}
+
+/*CONTACT FORM*/
+
+form {
+  background: #9bb992;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label, input, textarea {
+  border: none;
+  border-radius: 3px;
+  display: block;
+  margin: 10px;
+}
+
+/* Score: 0,0,1,1 */
+input[type=submit] {
+  background: #2d2003;
+  border: none;
+  border-radius: 4px;
+  color: #fffbf3;
+  padding: 10px;
+}
+
+input[type=text], input[type=input], textarea[name=message] {
+    background: #fffbf3;
+}
+
+input:focus, textarea:focus {
+  transition: background .25s;
+  outline-color: #d3e6ce;
+}
+
+/*PORTFOLIO*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout with Flexbox */
+.gallery {
+ display: flex;
+ flex-flow: row wrap;
+}
+
+figure {
+  /* Note: Figures have default 1em margin. Optionally override. */
+  /* Set `flex-basis` to any value */
+  flex: 1 0 40%;
+  margin: 1%;
+  
+  /* Child & Also Parent   */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Specific Gallery Styling. Have Fun! */
+figure a img {
+    width: 100%;
+    max-width: 400px;
+}
+
+figure figcaption {
+ font-size: .9em; 
+ color: #2d2003;
+}
+
+/* Must use div for overlay because there is no overlay element yet */
+/* Lightbox Overlay */
+/* hide  */
+.overlay {
+  display: none;
+  
+/* Overlay Styling   */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .5);
+}
+
+/* show */
+.overlay:target {
+  display: block;
+ 
+  /* Flexbox Vertical & Horizontal Centering */
+  display: flex;
+  min-height: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Close Button  */
+.overlay a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #2d2003;
+  
+}
+
+.overlay img {
+  max-height: 75%;
+  max-width: 90%;
 }
 
 /*FOOTER*/
