@@ -43,6 +43,12 @@ li#laurakneeshaw {
     padding-top: 6px;
 }
 
+/*NAV TRANSITIONS*/
+
+nav a:link, nav a:visited {
+    transition: color .25s;
+}
+
 /*ARTICLE*/
 
 article {
@@ -69,6 +75,7 @@ li {
 }
 
 #about-image{
+    border-radius: 5px;
     width: 100%;
     max-width: 500px;
     margin-top: 30px;
@@ -198,7 +205,7 @@ figure {
 /* Specific Gallery Styling. Have Fun! */
 figure a img {
     width: 100%;
-    max-width: 400px;
+    min-width: 200px;
 }
 
 figure figcaption {
@@ -219,7 +226,7 @@ figure figcaption {
   text-align: center;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .7);
 }
 
 /* show */
