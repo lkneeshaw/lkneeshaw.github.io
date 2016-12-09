@@ -1,5 +1,6 @@
 
-/*STYLES*/
+/*STYLES
+=======================================*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
@@ -11,7 +12,8 @@ body {
     url(../img/subtle_white_mini_waves.png);
 }
 
-/*NAV BAR*/
+/*NAV BAR
+=======================================*/
 
 nav {
     display: block;
@@ -24,7 +26,7 @@ nav {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     float: right;
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     font-size: 1.1em;
@@ -64,13 +66,15 @@ nav a:link, nav a:visited {
     transition: color .25s;
 }
 
-/*ARTICLE*/
+/*ARTICLE
+=======================================*/
 
 article {
     width: 70%;
-    margin: 70px auto 0 auto;
+    margin: 100px auto 0 auto;
     background: #fffbf3;
     box-shadow: 0 0 10px 0;
+    padding: 50px 0 75px 0;
 }
 
 section {
@@ -122,7 +126,8 @@ a:active {
 }
 
 
-/*TYPOGRAPHY*/
+/*TYPOGRAPHY
+=======================================*/
 
 h1 {
     color: #c5492d;
@@ -158,7 +163,8 @@ p {
     line-height: 20px;
 }
 
-/*CONTACT FORM*/
+/*CONTACT FORM
+=======================================*/
 
 form {
   background: #9bb992;
@@ -192,7 +198,8 @@ input:focus, textarea:focus {
   outline-color: #d3e6ce;
 }
 
-/*PORTFOLIO*/
+/*PORTFOLIO
+=======================================*/
 
 * {
   box-sizing: border-box;
@@ -224,8 +231,9 @@ figure a img {
 }
 
 figure figcaption {
- font-size: .9em; 
+ font-size: 1em; 
  color: #2d2003;
+ margin: 10px auto;
 }
 
 /* Must use div for overlay because there is no overlay element yet */
@@ -235,13 +243,13 @@ figure figcaption {
   display: none;
   
 /* Overlay Styling   */
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   text-align: center;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, .8);
 }
 
 /* show */
@@ -258,9 +266,11 @@ figure figcaption {
 
 /* Close Button  */
 .overlay a {
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
+  text-transform: none;
   color: #2d2003;
+  margin: 10px auto;
   
 }
 
@@ -269,7 +279,8 @@ figure figcaption {
   max-width: 90%;
 }
 
-/*FOOTER*/
+/*FOOTER
+=======================================*/
 
 footer {
     width: 100%;
@@ -284,3 +295,8 @@ footer p {
     padding-top: 30px;
     text-align: center;
 }
+
+/*MEDIA QUERIES
+=======================================*/
+
+@media (min-height)
