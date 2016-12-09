@@ -214,7 +214,7 @@ input:focus, textarea:focus {
 figure {
   /* Note: Figures have default 1em margin. Optionally override. */
   /* Set `flex-basis` to any value */
-  flex: 1 0 40%;
+  flex: 1 0 30%;
   margin: 1%;
   
   /* Child & Also Parent   */
@@ -228,6 +228,7 @@ figure {
 figure a img {
     width: 100%;
     min-width: 200px;
+    border-radius: 5px;
 }
 
 figure figcaption {
