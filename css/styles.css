@@ -207,18 +207,18 @@ input:focus, textarea:focus {
 
 /* Layout with Flexbox */
 .gallery {
- display: flex;
+ -webkit-display: flex;
  flex-flow: row wrap;
 }
 
 figure {
   /* Note: Figures have default 1em margin. Optionally override. */
   /* Set `flex-basis` to any value */
-  flex: 1 0 30%;
+  -webkit-flex: 1 0 30%;
   margin: 1%;
   
   /* Child & Also Parent   */
-  display: -webkit-flex;
+  -webkit-display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: center;
   align-items: center;
@@ -259,7 +259,7 @@ figure figcaption {
   display: block;
  
   /* Flexbox Vertical & Horizontal Centering */
-  display: -webkit-flex;
+  -webkit-display: flex;
   min-height: 50%;
   justify-content: center;
   align-items: center;
