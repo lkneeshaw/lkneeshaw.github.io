@@ -231,8 +231,8 @@ figure a img {
 }
 
 figure figcaption {
- font-size: 1em; 
- color: #2d2003;
+ font-size: 1.2em; 
+ color: #fffbf3;
  margin: 10px auto;
 }
 
@@ -246,10 +246,11 @@ figure figcaption {
   position: fixed;
   width: 100%;
   height: 100%;
+  margin-top: 20px;
   text-align: center;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(45, 32, 12, .7);
 }
 
 /* show */
@@ -269,7 +270,7 @@ figure figcaption {
   font-size: 1em;
   text-decoration: none;
   text-transform: none;
-  color: #2d2003;
+  color: #fffbf3;
   margin: 10px auto;
   
 }
