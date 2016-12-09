@@ -43,6 +43,21 @@ li#laurakneeshaw {
     padding-top: 6px;
 }
 
+#laurakneeshaw a:link, 
+#laurakneeshaw a:visited {
+    color: #9bb992;
+    font-size: 1em;
+    transition: color .5s;
+}
+
+#laurakneeshaw a:hover {
+    color: #c5492d;
+}
+
+nav li:last-child {
+    display: none;
+}
+
 /*NAV TRANSITIONS*/
 
 nav a:link, nav a:visited {
