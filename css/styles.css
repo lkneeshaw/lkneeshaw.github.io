@@ -218,8 +218,8 @@ figure {
   margin: 1%;
   
   /* Child & Also Parent   */
-  display: flex;
-  flex-flow: row wrap;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
@@ -259,11 +259,11 @@ figure figcaption {
   display: block;
  
   /* Flexbox Vertical & Horizontal Centering */
-  display: flex;
+  display: -webkit-flex;
   min-height: 50%;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  -webkit-flex-direction: column;
 }
 
 /* Close Button  */
@@ -301,4 +301,14 @@ footer p {
 /*MEDIA QUERIES
 =======================================*/
 
-@media (min-height)
+@media only screen and (max-width: 768px){
+    li#laurakneeshaw {
+        display: block;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    nav li {
+        display: block;
+    }
+}
