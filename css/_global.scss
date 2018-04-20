@@ -26,7 +26,7 @@ main {
 }
 
 nav {
-    background: #111;
+    background: rgba(10, 0, 0, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,8 @@ nav {
 }
 
 .hero {
-    background: #290f01;
+    background: url(/img/spark-cloud-blur.jpg) #3c1406;
+    background-size: cover;
     color: #fff;
     display: flex;
     flex-flow: column;

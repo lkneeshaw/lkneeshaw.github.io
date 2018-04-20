@@ -2,7 +2,6 @@
 
 p {
     line-height: 1.5;
-    margin-bottom: 1.5em;
 }
 
 h1 {
@@ -43,19 +42,41 @@ a:focus {
 
 // Button styles
 
-button {
+button,
+input[type=submit],
+a.button {
     background: $primary;
     border: none;
     color: #fff;
+    display: inline-block;
     font-weight: 600;
     font-size: 14px;
+    margin: .5em 1em .5em 0;
     padding: .65em .7em .6em;
+    text-decoration: none;
     text-transform: uppercase;
     transition: all .2s ease-out;
 }
 
 button:hover,
 button:focus,
-button:active {
+button:active,
+input[type=submit]:hover,
+input[type=submit]:focus,
+input[type=submit]:active,
+a.button:hover,
+a.button:focus,
+a.button:active {
     background: $secondary;
+}
+
+a.disabled-button,
+a.disabled-button:hover,
+{
+    background: $light-blue;
+}
+
+a.disabled-button:focus,
+a.disabled-button:active {
+    background: $dark-blue;
 }

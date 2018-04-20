@@ -353,7 +353,7 @@ main {
 
 /* line 28, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 nav {
-  background: #111;
+  background: rgba(10, 0, 0, 0.9);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -383,7 +383,8 @@ nav {
 
 /* line 62, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .hero {
-  background: #290f01;
+  background: url(/img/spark-cloud-blur.jpg) #3c1406;
+  background-size: cover;
   color: #fff;
   display: flex;
   flex-flow: column;
@@ -391,51 +392,51 @@ nav {
   align-items: center;
   height: 100%;
   padding: 0; }
-  /* line 72, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 73, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .hero img {
     height: 300px;
     width: 300px; }
-  /* line 77, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 78, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .hero .big-message {
     font-size: 1.5em; }
 
-/* line 82, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 83, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .project {
   margin: auto;
   padding: 4em; }
-  /* line 86, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 87, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .project .content-wrap {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 900px; }
-    /* line 93, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+    /* line 94, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
     .project .content-wrap img {
       margin-right: 2em; }
-  /* line 102, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 103, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .project:not(last-child) {
     border-bottom: 2px solid #e0e0e0; }
 
-/* line 109, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 110, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .intro {
   text-align: center;
   max-width: 900px; }
 
-/* line 114, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 115, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .article-wrap {
   margin: auto;
   padding: 4em; }
-  /* line 118, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 119, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap article {
     margin: auto;
     max-width: 900px; }
-  /* line 123, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 124, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap .placehold-it {
     background: #999;
     height: 400px; }
 
-/* line 129, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 130, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .full-width {
   background: #999;
   height: 600px;
@@ -443,61 +444,81 @@ nav {
 
 /* line 3, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 p {
-  line-height: 1.5;
-  margin-bottom: 1.5em; }
+  line-height: 1.5; }
 
-/* line 8, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 7, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 h1 {
   color: #ff8e42;
   font-size: 2.2em;
   font-weight: 600;
   margin: 1em 0; }
 
-/* line 15, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 14, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 h2 {
   color: #ff8e42;
   font-size: 2em;
   font-weight: 600;
   margin: .5em 0; }
 
-/* line 22, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 21, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 h3 {
   color: #ff8e42;
   font-size: 1.7em; }
 
-/* line 27, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 26, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 h4 {
   color: #ff8e42;
   font-size: 1.5em; }
 
-/* line 32, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 31, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 a,
 a:visited {
   color: #ff8e42;
   font-weight: 600;
   transition: all .2s ease-out; }
 
-/* line 39, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 38, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 a:hover,
 a:focus {
   color: #c85027; }
 
-/* line 46, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
-button {
+/* line 45, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+button,
+input[type=submit],
+a.button {
   background: #ff8e42;
   border: none;
   color: #fff;
+  display: inline-block;
   font-weight: 600;
   font-size: 14px;
+  margin: .5em 1em .5em 0;
   padding: .65em .7em .6em;
+  text-decoration: none;
   text-transform: uppercase;
   transition: all .2s ease-out; }
 
-/* line 57, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+/* line 61, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
 button:hover,
 button:focus,
-button:active {
+button:active,
+input[type=submit]:hover,
+input[type=submit]:focus,
+input[type=submit]:active,
+a.button:hover,
+a.button:focus,
+a.button:active {
   background: #c85027; }
+
+/* line 73, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+a.disabled-button,
+a.disabled-button:hover {
+  background: #8caedc; }
+
+/* line 79, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_typography.scss */
+a.disabled-button:focus,
+a.disabled-button:active {
+  background: #527bbd; }
 
 /********** Tablet **********/
 @media screen and (max-width: 768px) {
