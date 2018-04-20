@@ -400,21 +400,21 @@ nav {
     font-size: 1.5em; }
 
 /* line 82, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-.filler {
+.project {
   margin: auto;
   padding: 4em; }
   /* line 86, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-  .filler .content-wrap {
+  .project .content-wrap {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 900px; }
     /* line 93, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-    .filler .content-wrap img {
+    .project .content-wrap img {
       margin-right: 2em; }
   /* line 102, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-  .filler:not(last-child) {
+  .project:not(last-child) {
     border-bottom: 2px solid #e0e0e0; }
 
 /* line 109, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
@@ -502,22 +502,22 @@ button:active {
 /********** Tablet **********/
 @media screen and (max-width: 768px) {
   /* line 4, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
-  .filler .content-wrap {
+  .project .content-wrap {
     flex-flow: row wrap; }
     /* line 7, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
-    .filler .content-wrap img {
+    .project .content-wrap img {
       margin-right: 0; }
     /* line 11, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
-    .filler .content-wrap .project-summary {
+    .project .content-wrap .project-summary {
       text-align: center; } }
 
 /********** Mobile **********/
 @media screen and (max-width: 480px) {
   /* line 20, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
-  .filler {
+  .project {
     padding: 2em 1em; }
     /* line 24, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
-    .filler .content-wrap img {
+    .project .content-wrap img {
       width: 100%;
       max-width: 300px; }
   /* line 31, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */

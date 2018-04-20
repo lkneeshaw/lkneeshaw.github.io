@@ -1,6 +1,6 @@
 /********** Tablet **********/
 @media screen and (max-width: 768px) {
-    .filler {
+    .project {
         .content-wrap {
         flex-flow: row wrap;
             
@@ -17,7 +17,7 @@
 
 /********** Mobile **********/
 @media screen and (max-width: 480px) {
-    .filler {
+    .project {
         padding: 2em 1em;
         
         .content-wrap {
