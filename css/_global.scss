@@ -112,6 +112,27 @@ nav {
     }
 }
 
+footer {
+    background: #222;
+    color: #666;
+    padding: 3em;
+    text-align: center;
+    
+    .contact {
+        color: $primary;
+        display: block;
+        font-size: 16px;
+        margin: 12px auto;
+        text-decoration: none;
+        text-transform: lowercase;
+    }
+    
+    .copyright {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
 //CASE STUDY STYLES
 
 .intro {

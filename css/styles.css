@@ -424,48 +424,67 @@ nav {
   .project:not(last-child) {
     border-bottom: 2px solid #e0e0e0; }
 
-/* line 117, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 115, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+footer {
+  background: #222;
+  color: #666;
+  padding: 3em;
+  text-align: center; }
+  /* line 121, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  footer .contact {
+    color: #ff8e42;
+    display: block;
+    font-size: 16px;
+    margin: 12px auto;
+    text-decoration: none;
+    text-transform: lowercase; }
+  /* line 130, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  footer .copyright {
+    font-size: 12px;
+    text-transform: uppercase; }
+
+/* line 138, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .intro {
   text-align: center;
   max-width: 900px; }
 
-/* line 122, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 143, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .article-wrap {
   margin: auto;
   padding: 4em; }
-  /* line 126, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 147, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap article {
     margin: auto;
     max-width: 900px; }
-  /* line 131, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 152, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap .placehold-it {
     background: #999;
     height: 400px; }
 
-/* line 137, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 158, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .full-width {
   background: #999;
   height: 600px;
   width: 100%; }
 
-/* line 145, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 166, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 #menu .menu-btn {
   display: none; }
 
-/* line 149, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 170, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 #menu-list {
   list-style: none;
   padding: 0;
   text-align: center; }
 
-/* line 155, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 176, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .menu-item {
   display: inline-block;
   padding: 1em 2em; }
 
 @media screen and (max-width: 480px) {
   /* menu */
-  /* line 164, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 185, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu-list {
     overflow: hidden;
     margin: 0;
@@ -473,20 +492,20 @@ nav {
     /* Hides menu */
     transition: max-height .3s ease-out;
     /* opening transition */ }
-  /* line 171, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 192, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .menu-item {
     display: block;
     /* Stacks links */
     padding: .7em; }
   /* menu icon */
-  /* line 178, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 199, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon {
     cursor: pointer;
     display: block;
     padding: 28px 20px;
     position: relative;
     user-select: none; }
-  /* line 186, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 207, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon {
     background: #A7ACB3;
     display: block;
@@ -495,7 +514,7 @@ nav {
     position: relative;
     transition: background .3s ease-out;
     width: 18px; }
-  /* line 196, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 217, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:before,
   #menu .menu-icon .navicon:after {
     background: #A7ACB3;
@@ -505,24 +524,24 @@ nav {
     position: absolute;
     transition: all .3s ease-out;
     width: 100%; }
-  /* line 207, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 228, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:before {
     top: 5px; }
-  /* line 211, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 232, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:after {
     top: -5px; }
   /* menu btn */
-  /* line 217, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 238, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ #menu-list {
     max-height: 250px; }
-  /* line 221, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 242, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent; }
-  /* line 225, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 246, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
     top: 0; }
-  /* line 230, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 251, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
     top: 0; } }
