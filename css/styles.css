@@ -425,13 +425,13 @@ nav {
     border-bottom: 2px solid #e0e0e0; }
 
 /* line 115, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-footer {
+.footer {
   background: #222;
   color: #666;
   padding: 3em;
   text-align: center; }
   /* line 121, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-  footer .contact {
+  .footer .contact {
     color: #ff8e42;
     display: block;
     font-size: 16px;
@@ -439,7 +439,7 @@ footer {
     text-decoration: none;
     text-transform: lowercase; }
   /* line 130, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
-  footer .copyright {
+  .footer .copyright {
     font-size: 12px;
     text-transform: uppercase; }
 
