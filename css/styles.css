@@ -397,69 +397,75 @@ nav {
     height: 300px;
     width: 300px; }
   /* line 78, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  .hero .tagline {
+    color: #c85027;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    text-transform: uppercase; }
+  /* line 85, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .hero .big-message {
     font-size: 1.5em; }
 
-/* line 83, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 90, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .project {
   margin: auto;
   padding: 4em; }
-  /* line 87, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 94, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .project .content-wrap {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 900px; }
-    /* line 94, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+    /* line 101, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
     .project .content-wrap img {
       margin-right: 2em; }
-  /* line 103, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 110, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .project:not(last-child) {
     border-bottom: 2px solid #e0e0e0; }
 
-/* line 110, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 117, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .intro {
   text-align: center;
   max-width: 900px; }
 
-/* line 115, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 122, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .article-wrap {
   margin: auto;
   padding: 4em; }
-  /* line 119, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 126, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap article {
     margin: auto;
     max-width: 900px; }
-  /* line 124, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 131, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .article-wrap .placehold-it {
     background: #999;
     height: 400px; }
 
-/* line 130, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 137, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .full-width {
   background: #999;
   height: 600px;
   width: 100%; }
 
-/* line 138, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 145, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 #menu .menu-btn {
   display: none; }
 
-/* line 142, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 149, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 #menu-list {
   list-style: none;
   padding: 0;
   text-align: center; }
 
-/* line 148, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+/* line 155, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
 .menu-item {
   display: inline-block;
   padding: 1em 2em; }
 
 @media screen and (max-width: 480px) {
   /* menu */
-  /* line 157, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 164, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu-list {
     overflow: hidden;
     margin: 0;
@@ -467,20 +473,20 @@ nav {
     /* Hides menu */
     transition: max-height .3s ease-out;
     /* opening transition */ }
-  /* line 164, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 171, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   .menu-item {
     display: block;
     /* Stacks links */
     padding: .7em; }
   /* menu icon */
-  /* line 171, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 178, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon {
     cursor: pointer;
     display: block;
     padding: 28px 20px;
     position: relative;
     user-select: none; }
-  /* line 179, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 186, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon {
     background: #A7ACB3;
     display: block;
@@ -489,7 +495,7 @@ nav {
     position: relative;
     transition: background .3s ease-out;
     width: 18px; }
-  /* line 189, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 196, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:before,
   #menu .menu-icon .navicon:after {
     background: #A7ACB3;
@@ -499,24 +505,24 @@ nav {
     position: absolute;
     transition: all .3s ease-out;
     width: 100%; }
-  /* line 200, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 207, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:before {
     top: 5px; }
-  /* line 204, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 211, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-icon .navicon:after {
     top: -5px; }
   /* menu btn */
-  /* line 210, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 217, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ #menu-list {
     max-height: 250px; }
-  /* line 214, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 221, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent; }
-  /* line 218, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 225, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
     top: 0; }
-  /* line 223, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
+  /* line 230, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_global.scss */
   #menu .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
     top: 0; } }
@@ -626,6 +632,9 @@ a.disabled-button:active {
   /* line 36, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
   .hero img {
     height: 200px;
-    width: 200px; } }
+    width: 200px; }
+  /* line 41, /Users/laurakneeshaw/Documents/GitHub/lkneeshaw.github.io/css/_media-queries.scss */
+  .hero .tagline {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=styles.css.map */
